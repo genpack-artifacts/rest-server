@@ -1,0 +1,12 @@
+{
+    profile: "paravirt",
+    buildtime_packages: [
+        "dev-lang/go",
+    ],
+    packages: [
+        "app-backup/restic",
+    ],
+    services: [
+        "rest-server",
+    ]
+}
